@@ -94,6 +94,7 @@ public:
     lanai,          // Lanai: Lanai 32-bit
     wasm32,         // WebAssembly with 32-bit pointers
     wasm64,         // WebAssembly with 64-bit pointers
+    dpu,            // UPMEM DPU
     renderscript32, // 32-bit RenderScript
     renderscript64, // 64-bit RenderScript
     LastArchType = renderscript64
@@ -145,6 +146,7 @@ public:
     AMD,
     Mesa,
     SUSE,
+    UPMEM,
     OpenEmbedded,
     LastVendorType = OpenEmbedded
   };
@@ -181,6 +183,7 @@ public:
     WatchOS,    // Apple watchOS
     Mesa3D,
     Contiki,
+    DPURTe,     // UPMEM DPU Runtime Environment
     AMDPAL,     // AMD PAL Runtime
     LastOSType = AMDPAL
   };
